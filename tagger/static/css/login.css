@@ -1,0 +1,14 @@
+form{
+	margin-top: 25vh;
+	margin-left: 15vw;
+	width: 50vw;
+}
+.container{
+	text-align: center;
+}
+input{
+	float: left;
+}
+.button{
+	/*float: none;*/
+}

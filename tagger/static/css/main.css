@@ -1,0 +1,18 @@
+.header{
+	text-align: center;
+	background-color: #00A388;
+	color: #BEEB9F;
+	font-weight: bold;
+}
+body{
+	background-color: #79BD8F;
+}
+#form{
+	background-color: #BEEB9F;
+	color: #00A388;
+	padding: 1.5em;
+}
+button{
+	background-color: #00A388;
+	color: #BEEB9F;
+}
