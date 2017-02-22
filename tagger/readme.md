@@ -21,3 +21,9 @@ Config file are in */src/main/resources*
 - Users for HTTP authentication are generated in source file because i'm lazy ¯\\_(ツ)_/¯. Change them in *src/main/java/date/animu/image_tagger/controller/WebSecurity.java*
 
 When restarting the server with an existing database you don't want to erase, set *spring.jpa.hibernate.ddl-auto* to *validate* and *generate_from_scratch* to false.
+
+### Running
+
+You can start the server using `mvn spring-boot:run`
+
+Set it up as a service following [these instructions](http://stackoverflow.com/questions/21503883/spring-boot-application-as-a-service) 
